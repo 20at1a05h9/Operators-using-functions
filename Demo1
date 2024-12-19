@@ -1,0 +1,33 @@
+from colorsys import yiq_to_rgb
+from os import device_encoding
+
+
+class arithmetic_op:
+    def sum(self):
+        x=200
+        y=100
+        return x+y
+    def mul(self):
+        a=50
+        b=2
+        return a*b
+    def sub(self):
+        p=20
+        q=50
+        return p-q
+
+    def div(self):
+        c = 200
+        d = 30
+        return c/d
+
+    def mod(self):
+        x = 30
+        y = 2
+        return x//y
+    def even_odd(self):
+        n = 5
+        if n%2==0:
+            return "Even"
+        else:
+            return "Odd"
