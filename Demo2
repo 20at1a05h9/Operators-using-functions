@@ -1,0 +1,22 @@
+from Using_class.arithmetic_operations_using_class import arithmetic_op
+obj=arithmetic_op()
+res=obj.sum()
+print("sum of two numbers:",res)
+obj1=arithmetic_op()
+res=obj1.sub()
+print("subtraction:",res)
+obj2=arithmetic_op()
+res=obj2.mul()
+print("multiplication:",res)
+
+obj3=arithmetic_op()
+res=obj3.div()
+print("division:",res)
+
+obj4=arithmetic_op()
+res=obj4.mod()
+print("module:",res)
+
+obj5=arithmetic_op()
+res=obj5.even_odd()
+print("the given number is:",res)
